@@ -4,7 +4,7 @@ ini_set('session.cookie_httponly', 1);
 
 session_start();
 
-$timeout_duration = 60;
+$timeout_duration = 900;
 
 if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY']) > $timeout_duration) {
     session_unset();
