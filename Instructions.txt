@@ -1,0 +1,22 @@
+Steps to Run the Project
+
+1. Download or clone the project files on the local machine.
+2. Install XAMPP/WAMP
+3. Move the project folder (KingsLabs_MachineTest) to your XAMPP `htdocs` folder.
+4. Open the XAMPP Control Panel and start both Apache and MySQL services.
+5. Create Database
+   - Open browser and go to `http://localhost/phpmyadmin`.
+   - Create a new database named `kingslabs`.
+   - Import the .sql file, located inside sql folder in the project
+6. Run the project using http://localhost/KingsLabs_MachineTest/register.php
+
+
+Sample Login Credentials
+
+User 1 
+Username - Test User
+Password - 123456
+
+User 2
+Username - Deepu Kunjumon
+Password - Deepu@1234
